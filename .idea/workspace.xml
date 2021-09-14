@@ -18,7 +18,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4377b68b-2e8e-4e23-9807-52371334c315" name="Default Changelist" comment="" />
+    <list default="true" id="4377b68b-2e8e-4e23-9807-52371334c315" name="Default Changelist" comment="IDEA上传Github">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +55,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -66,6 +69,18 @@
       <recent name="junit.framework.TestCase" />
     </key>
   </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -74,13 +89,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="4377b68b-2e8e-4e23-9807-52371334c315" name="Default Changelist" comment="" />
@@ -89,6 +102,14 @@
       <option name="presentableId" value="Default" />
       <updated>1631436044259</updated>
     </task>
+    <task id="LOCAL-00001" summary="IDEA上传Github">
+      <created>1631627813617</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1631627813617</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,12 +117,17 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="IDEA上传Github" />
+    <option name="LAST_COMMIT_MESSAGE" value="IDEA上传Github" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1631537828287">
@@ -128,10 +154,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="860" y="348" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1631621694624" />
-    <state x="910" y="348" key="FileChooserDialogImpl" timestamp="1631627455085">
+    <state x="910" y="348" key="FileChooserDialogImpl" timestamp="1631627684334">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="910" y="348" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1631627455085" />
+    <state x="910" y="348" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1631627684334" />
+    <state x="1475" y="427" key="Github.ShareDialog" timestamp="1631628351209">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1475" y="427" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1631628351209" />
     <state width="1138" height="279" key="GridCell.Tab.0.bottom" timestamp="1631626640446">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
