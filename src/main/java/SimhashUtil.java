@@ -33,8 +33,7 @@ public class SimhashUtil {
         Map<String, WordTerm> wordMap = new HashMap<>();
         //计算词频
         for (Term term : segment) {
-            if (Objects.equals(term.nature.toString(), "w")){
-                segment.remove(term);
+            if (term.nature == Nature.w){
                 continue;
             }
             WordTerm wordTerm = wordMap.get(term.word);
@@ -104,7 +103,6 @@ public class SimhashUtil {
                 }
             }
         }
-        System.out.println(distance);
         return String.format("%.2f",100-distance*100/64);
     }
 }
