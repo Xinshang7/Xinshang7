@@ -15,6 +15,8 @@ public class AllTest {
         String copy5 = FileUtil.Read("D:/test/orig_0.8_dis_15.txt");
         //测试文本为空
         String copy6 = "";
+        //文本相同
+        System.out.println(SimhashUtil.getSimilar(orig,orig));
         System.out.println(SimhashUtil.getSimilar(orig,copy1));
         System.out.println(SimhashUtil.getSimilar(orig,copy2));
         System.out.println(SimhashUtil.getSimilar(orig,copy3));

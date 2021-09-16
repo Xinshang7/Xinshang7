@@ -12,6 +12,6 @@ public class Main {
                 "\r\n" +
                 "查重率为：" + SimilarPercent + "%";
         FileUtil.Write(str,args[2]);
-        System.out.println("文件已输出到指定路径");
+        System.out.println("文件输出到路径：" + FileUtil.getPath(args[2]));
     }
 }
