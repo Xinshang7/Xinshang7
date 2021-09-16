@@ -56,4 +56,9 @@ public class AllTest {
         System.out.println(HanLP.segment(str4));
         System.out.println(HanLP.segment(str5));
     }
+
+    @Test
+    public void MainTest(){
+        Main.main(new String[]{"D:/test/orig.txt", "D:/test/orig_0.8_add.txt", "D:/test/ans.txt"});
+    }
 }

@@ -23,10 +23,6 @@ public class SimhashUtil {
             super(word, nature);
         }
 
-        @Override
-        public String toString() {
-            return JSONObject.toJSONString(this);
-        }
     }
 
     /**

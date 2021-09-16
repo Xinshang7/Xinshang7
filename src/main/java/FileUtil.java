@@ -26,6 +26,7 @@ public class FileUtil {
                 len++;
             }
         } catch (IOException e) {
+            System.out.println("文本路径错误，读取失败");
             e.printStackTrace();
         } finally {
             if (br != null) {
@@ -48,10 +49,11 @@ public class FileUtil {
         File file = new File(path);
         BufferedWriter bw = null;
         try {
-            bw = new BufferedWriter(new FileWriter(file));
+            bw = new BufferedWriter(new FileWriter(file,true));
             bw.append(str);
             bw.flush();
         } catch (IOException e) {
+            System.out.println("文本路径错误，写入失败");
             e.printStackTrace();
         }finally {
             if (null != bw) {
