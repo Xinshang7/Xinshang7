@@ -20,6 +20,15 @@
   <component name="ChangeListManager">
     <list default="true" id="4377b68b-2e8e-4e23-9807-52371334c315" name="Default Changelist" comment="IDEA上传Github">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FileUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SimhashUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SimhashUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AllTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AllTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FileUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FileUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SimhashUtil$WordTerm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SimhashUtil$WordTerm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SimhashUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SimhashUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AllTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/AllTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +77,7 @@
       <recent name="junit.framework.TestCase" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.AllTest.SimhashUtilTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="First_project" />
@@ -76,6 +85,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AllTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="First_project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AllTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AllTest.FileUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="First_project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AllTest" />
+      <option name="METHOD_NAME" value="FileUtilTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AllTest.HanLPTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="First_project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AllTest" />
+      <option name="METHOD_NAME" value="HanLPTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AllTest.SimhashUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="First_project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AllTest" />
+      <option name="METHOD_NAME" value="SimhashUtilTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AllTest.SimhashUtilTest" />
+        <item itemvalue="JUnit.AllTest" />
+        <item itemvalue="JUnit.AllTest.HanLPTest" />
+        <item itemvalue="JUnit.AllTest.FileUtilTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -148,22 +204,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1475" y="427" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1631628351209" />
-    <state width="1138" height="279" key="GridCell.Tab.0.bottom" timestamp="1631626640446">
+    <state width="1138" height="279" key="GridCell.Tab.0.bottom" timestamp="1631722536407">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1138" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1631626640446" />
-    <state width="1138" height="279" key="GridCell.Tab.0.center" timestamp="1631626640446">
+    <state width="1138" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1631722536407" />
+    <state width="1138" height="279" key="GridCell.Tab.0.center" timestamp="1631722536407">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1138" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1631626640446" />
-    <state width="1138" height="279" key="GridCell.Tab.0.left" timestamp="1631626640445">
+    <state width="1138" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1631722536407" />
+    <state width="1138" height="279" key="GridCell.Tab.0.left" timestamp="1631722536407">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1138" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1631626640445" />
-    <state width="1138" height="279" key="GridCell.Tab.0.right" timestamp="1631626640446">
+    <state width="1138" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1631722536407" />
+    <state width="1138" height="279" key="GridCell.Tab.0.right" timestamp="1631722536407">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1138" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1631626640446" />
+    <state width="1138" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1631722536407" />
+    <state width="1138" height="279" key="GridCell.Tab.1.bottom" timestamp="1631721768422">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1138" height="279" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1631721768422" />
+    <state width="1138" height="279" key="GridCell.Tab.1.center" timestamp="1631721768421">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1138" height="279" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1631721768421" />
+    <state width="1138" height="279" key="GridCell.Tab.1.left" timestamp="1631721768421">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1138" height="279" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1631721768421" />
+    <state width="1138" height="279" key="GridCell.Tab.1.right" timestamp="1631721768422">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1138" height="279" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1631721768422" />
     <state x="744" y="198" key="SettingsEditor" timestamp="1631627569988">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -176,5 +248,8 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1631453637546" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/First_project$AllTest.ic" NAME="AllTest Coverage Results" MODIFIED="1631722445186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

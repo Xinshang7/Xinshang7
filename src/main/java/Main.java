@@ -2,20 +2,16 @@
  * 主类
  */
 public class Main {
-    private static final FileUtil file = new FileUtil();
-    private static final SimhashUtil hash = new SimhashUtil();
-
     public static void main(String[] args) {
-        String orig = file.Read(args[0]);
-        String copy = file.Read(args[1]);
-        String SimilarPercent = hash.getSimilar(orig,copy);
-        String str = "原文：" + file.getName(args[0]) +
+        String orig = FileUtil.Read(args[0]);
+        String copy = FileUtil.Read(args[1]);
+        String SimilarPercent = SimhashUtil.getSimilar(orig,copy);
+        String str = "原文：" + FileUtil.getName(args[0]) +
                 "\r\n" +
-                "抄袭版论文：" + file.getName(args[1]) +
+                "抄袭版论文：" + FileUtil.getName(args[1]) +
                 "\r\n" +
                 "查重率为：" + SimilarPercent + "%";
-        file.Write(str,args[2]);
+        FileUtil.Write(str,args[2]);
+        System.out.println("文件已输出到指定路径");
     }
-
-
 }

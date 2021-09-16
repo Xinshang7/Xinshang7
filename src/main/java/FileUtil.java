@@ -4,8 +4,12 @@ import java.io.*;
  * 对文件的读写操作
  */
 public class FileUtil {
-    //读文件
-    public String Read(String path) {
+    /**
+     * 读取文件
+     * @param path 文件绝对路径
+     * @return 文件内容
+     */
+    public static String Read(String path) {
         int len = 0;
         StringBuilder str = new StringBuilder();
         File file = new File(path);
@@ -34,8 +38,13 @@ public class FileUtil {
         }
         return str.toString();
     }
-    //写文件
-    public void Write(String str,String path){
+
+    /**
+     * 将字符串写入文件
+     * @param str 需要写入文件的内容
+     * @param path 存储文件的绝对路径
+     */
+    public static void Write(String str,String path){
         File file = new File(path);
         BufferedWriter bw = null;
         try {
@@ -54,8 +63,13 @@ public class FileUtil {
             }
         }
     }
-    //读文件名
-    public String getName(String path){
+
+    /**
+     * 获取文件名
+     * @param path 文件的绝对路径
+     * @return 文件名
+     */
+    public static String getName(String path){
         File file = new File(path);
         return file.getName();
     }
